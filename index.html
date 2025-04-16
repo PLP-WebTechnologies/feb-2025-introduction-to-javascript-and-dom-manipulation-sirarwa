@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript DOM Interaction</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="page-title">Dynamic Page</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="dynamic-text">This text will change.</p>
+      <button onclick="changeContent()">Change Text & Style</button>
+    </section>
+
+    <section>
+      <button onclick="toggleElement()">Toggle Element</button>
+      <div id="toggle-container"></div>
+    </section>
+  </main>
+
+  <aside>
+    <p>Click buttons to see dynamic changes.</p>
+  </aside>
+
+  <footer>
+    <small>&copy; 2025 Arwa </small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
