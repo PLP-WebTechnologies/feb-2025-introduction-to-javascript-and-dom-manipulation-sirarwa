@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+  }
+  header, main, section, footer {
+    margin-bottom: 1.5rem;
+  }
+  .highlight {
+    color: white;
+    background-color: #007bff;
+    padding: 0.5rem;
+  }
